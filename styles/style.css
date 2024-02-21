@@ -1,0 +1,48 @@
+/* GERAL */
+
+@font-face {
+    font-family: Poppins;
+    src: url(../fonts/Poppins-Regular.ttf) format("truetype");
+}
+
+* {
+    font-family: Poppins;
+}
+
+body {
+    margin: 0;
+    font-family: Poppins;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: crimson;
+}
+
+.Projeto2{
+    margin: 0 auto;
+    margin-top: 10px;
+    width: 70%;
+    margin-bottom: 10px;
+}
+
+.Projeto2 h1{
+    font-weight: bold;
+}
+
+.Projeto2 p{
+    margin: 0;
+    text-align: start;
+}
+
+.accordion-item{
+    margin-top: 15px;
+}
+
+.accordion-button, .accordion-item{
+    border-radius: 10px;
+}
+
+.accordion-item button{
+    font-weight: bold;
+}
