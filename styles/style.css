@@ -16,32 +16,54 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+}
+
+.card{
+    transition: all ease 0.25s;
+}
+
+.card:hover{
+    cursor: pointer;
+    box-shadow: 5px 10px rgba(220, 20, 60, 0.555);
+    transform: translateY(-2%);
+}
+
+.card-img-top{
+    margin-top: 12px;
+    border-radius: 5px;
+}
+
+.projeto2{
+    width: 100vw;
+    height: 100vh;
     background-color: crimson;
 }
 
-.Projeto2{
+.perguntasFrequentes {
     margin-top: 10px;
     width: 100%;
     margin-bottom: 10px;
 }
 
-.Projeto2 h1{
+.perguntasFrequentes h1 {
+    color: white;
     font-weight: bold;
 }
 
-.Projeto2 p{
+.perguntasFrequentes p {
     margin: 0;
     text-align: start;
 }
 
-.accordion-item{
+.accordion-item {
     margin-top: 15px;
 }
 
-.accordion-button, .accordion-item{
+.accordion-button,
+.accordion-item {
     border-radius: 10px;
 }
 
-.accordion-item button{
+.accordion-item button {
     font-weight: bold;
 }
