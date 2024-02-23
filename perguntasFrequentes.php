@@ -1,7 +1,7 @@
 <?php
 include_once("header.php");
 ?>
-<div class="projeto2">
+<div class="backgroundFaq">
     <div class="perguntasFrequentes container">
         <div class="row col-lg-12 col-sm-10 col-md-9 col-12 m-auto">
             <h1>Perguntas Frequentes</h1>

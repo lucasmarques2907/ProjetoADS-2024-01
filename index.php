@@ -2,10 +2,16 @@
 ?>
 <div class="container">
     <div class="row cards d-flex justify-content-center">
-        <div class="card m-3" style="width: 18rem;" onClick="perguntasFrequentes()">
+        <div class="card m-3" id="faq" style="width: 18rem;" onClick="perguntasFrequentes()">
             <img src="imgs/FAQ.png" class="card-img-top" alt="">
             <div class="card-body">
                 <h5 class="card-title">FAQ</h5>
+            </div>
+        </div>
+        <div class="card m-3" id="navMobile" style="width: 18rem;" onClick="navMobile()">
+            <img src="imgs/FAQ.png" class="card-img-top" alt="">
+            <div class="card-body">
+                <h5 class="card-title">Navegação Mobile</h5>
             </div>
         </div>
     </div>

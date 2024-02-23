@@ -18,22 +18,31 @@ body {
     min-height: 100vh;
 }
 
-.card{
+.card {
     transition: all ease 0.25s;
 }
 
-.card:hover{
+.card:hover {
     cursor: pointer;
-    box-shadow: 5px 10px rgba(220, 20, 60, 0.555);
     transform: translateY(-2%);
 }
 
-.card-img-top{
+.card-img-top {
     margin-top: 12px;
     border-radius: 5px;
 }
 
-.projeto2{
+#faq:hover {
+    box-shadow: 5px 10px rgba(220, 20, 60, 0.555);
+}
+
+#navMobile:hover {
+    box-shadow: 5px 10px rgba(25, 25, 112, 0.555);
+}
+
+/* FAQ */
+
+.backgroundFaq {
     width: 100vw;
     height: 100vh;
     background-color: crimson;
@@ -66,4 +75,77 @@ body {
 
 .accordion-item button {
     font-weight: bold;
+}
+
+/* Navegação Mobile */
+
+.backgroundNavMob {
+    margin: auto;
+    width: 100vw;
+    height: 100vh;
+    background-color: midnightblue;
+}
+
+.phone {
+    margin: 0 auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 340px;
+    height: 600px;
+    background-color: #fff;
+    border: 2px solid #fff;
+    border-radius: 15px;
+}
+
+.phone img{
+    transition: all 0.3s ease;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    margin: 0 auto;
+    padding: 0;
+    top: 0;
+    aspect-ratio: 10/16;
+    object-fit:cover;
+    animation-name: example;
+    animation-duration: 0.5s;
+}
+
+@keyframes example{
+    0%{
+        opacity: 0.8;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+.navButtons {
+    border-bottom-left-radius: 15px !important;
+    border-bottom-right-radius: 15px !important;
+    margin: 0 auto;
+    width: 100%;
+    padding: 0;
+    bottom: 0;
+}
+
+.navButtons button {
+    padding: 10px 0;
+    font-size: 12px;
+    background-color: white;
+    border: 0px;
+    transition: all 0.25s ease;
+}
+
+.navButtons button:hover, .buttonPressed {
+    color: blueviolet;
+}
+
+.homeButton {
+    border-bottom-left-radius: 15px;
+}
+
+.aboutButton {
+    border-bottom-right-radius: 15px;
 }
