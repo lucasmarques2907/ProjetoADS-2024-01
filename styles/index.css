@@ -1,0 +1,46 @@
+@font-face {
+    font-family: Poppins;
+    src: url(../fonts/Poppins-Regular.ttf) format("truetype");
+}
+
+* {
+    font-family: Poppins;
+}
+
+body {
+    margin: 0;
+    font-family: Poppins;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+}
+
+.card {
+    transition: all ease 0.25s;
+}
+
+.card:hover {
+    cursor: pointer;
+    transform: translateY(-2%);
+}
+
+.card img{
+    width: 100%;
+    object-fit: cover;
+    height: 100%;
+    aspect-ratio: 1;
+}
+
+.card-img-top {
+    margin-top: 12px;
+    border-radius: 5px;
+}
+
+#faq:hover {
+    box-shadow: 5px 10px rgba(220, 20, 60, 0.555);
+}
+
+#navMobile:hover {
+    box-shadow: 5px 10px rgba(25, 25, 112, 0.555);
+}
