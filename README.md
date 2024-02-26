@@ -12,7 +12,7 @@ Como este código segue uma abordagem simples, funcional e mantém uma organiza�
 
 ## Instruções para execução local
 > [!TIP]
-> Este projeto estará sendo hospedado remotamente, [clique aqui](https://lucasmarques2907.github.io/ProjetoADS-2024-01/) para visitar o site do projeto.
+> Este projeto está sendo hospedado remotamente, [clique aqui](https://lucasmarques2907.github.io/ProjetoADS-2024-01/) para visitar o site do projeto.
 
 Caso o site não esteja funcionando:
 - [Clique aqui](https://github.com/lucasmarques2907/ProjetoADS-2024-01/archive/refs/heads/main.zip) para baixar o arquivo zip do projeto
