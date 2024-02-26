@@ -1,16 +1,15 @@
 const pathname = window.location.pathname;
 
-if (pathname.includes("index.php")) {
+if (pathname.includes("index.html")) {
 
     function perguntasFrequentes() {
-        window.location.href = "faq.php";
+        window.location.href = "faq.html";
     }
 
     function navMobile() {
-        window.location.href = "navMobile.php";
+        window.location.href = "navMobile.html";
     }
-}
-if (pathname.includes("navMobile.php")) {
+}else if (pathname.includes("navMobile.html")) {
 
     home = document.querySelector("#home");
     work = document.querySelector("#work");
