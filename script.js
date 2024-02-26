@@ -1,5 +1,13 @@
 const pathname = window.location.pathname;
 
+function perguntasFrequentes() {
+    window.location.href = "faq.html";
+}
+
+function navMobile() {
+    window.location.href = "navMobile.html";
+}
+
 if (pathname.includes("navMobile")) {
 
     home = document.querySelector("#home");
